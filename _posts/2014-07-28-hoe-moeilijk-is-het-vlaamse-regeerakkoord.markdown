@@ -3,6 +3,7 @@ layout: post
 title:  "Hoe moeilijk is het Vlaamse regeerakkoord?"
 date:   2014-07-28 11:31:52
 categories: NLP
+comments: true
 ---
 <p><strong>De publicatie van het Vlaamse regeerakkoord eerder deze week maakte heel 
 wat reacties los, niet enkel op politiek, maar ook op taalkundig vlak. Schrijfster Ann De Craemer hekelde de holle woordenbrij 
