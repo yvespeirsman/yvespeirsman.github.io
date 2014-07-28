@@ -4,56 +4,70 @@ title:  "Hoe moeilijk is het Vlaamse regeerakkoord?"
 date:   2014-07-26 21:31:52
 categories: NLP
 ---
-<p>De publicatie van het Vlaamse regeerakkoord eerder deze week maakte heel 
-wat emoties los. Schrijfster Ann De Craemer hekelde de holle woordenbrij 
-in een column in De Morgen, maar kreeg al snel lik op stuk van Maurits Vande Reyde, 
+<p><strong>De publicatie van het Vlaamse regeerakkoord eerder deze week maakte heel 
+wat reacties los, niet enkel op politiek, maar ook op taalkundig vlak. Schrijfster Ann De Craemer hekelde de holle woordenbrij 
+in een <a href="http://www.demorgen.be/dm/nl/30969/Regeringsvorming/article/detail/1957085/2014/07/24/De-lulkoektaal-van-het-Vlaamse-wezelwoordakkoord.dhtml">column in De Morgen</a>, 
+maar kreeg al snel <a href="http://www.demorgen.be/dm/nl/2461/Opinie/article/detail/1958641/2014/07/24/Schrijven-wij-lulkoek-Dat-is-gewoon-de-wereld-van-het-beleid-maken.dhtml">lik op stuk</a> van Maurits Vande Reyde, 
 beleidsmedewerker van Open Vld. “Zaken worden complexer verwoord omdat ze nu eenmaal 
 complexer zijn”, schrijft Vande Reyde over het taalgebruik van onze politici. 
-Maar is dat zo? En is het Vlaamse regeerakkoord inderdaad zo moeilijk?<p>
-
+Maar is dat zo? En is het Vlaamse regeerakkoord inderdaad zo moeilijk?</strong><p>
+<br />
 <p>“Moeilijk” is natuurlijk lastig om te definiëren. Toch hoeven we niet alleen
-op ons gevoel te vertrouwen. In taalkundig onderzoek worden typisch 
-een aantal eenvoudige maten gebruikt die helpen om de complexiteit van een tekst 
+op ons gevoel te vertrouwen. Taalkundig gebruikt typisch 
+een aantal eenvoudige maten om de complexiteit van een tekst 
 aanschouwelijk te maken: de gemiddelde lengte van een woord, de gemiddelde lengte 
-van een zin, en de bekendheid van de gebruikte woorden.</p>
+van een zin, en onze vertrouwdheid met de gebruikte woorden.</p>
 
-<p>We vergelijken het huidige Vlaamse regeerakkoord met drie andere teksten: 
+<p>Laten we dus het huidige Vlaamse regeerakkoord op deze vlakken dus eens vergelijken
+met drie andere teksten: 
 de vorige Vlaamse regeerakkoorden uit 2004 en 2010, en een reeks artikelen 
-uit de krant De Standaard. Die  artikelen dienen als representatieve voorbeelden 
-van meer populariserende en toch kwalitatief hoogstaande teksten. Bovendien gaan 
-ze stuk voor stuk over het meest recente regeerakkoord, wat de vergelijkbaarheid 
+uit de krant De Standaard. Die laatste dienen als referentiepunt voor teksten die 
+tegelijkertijd kwalitatief hoogstaand en begrijpelijk zijn. Bovendien kozen we met
+opzet artikelen over het meest recente regeerakkoord, wat de vergelijkbaarheid 
 tussen de teksten aanzienlijk verhoogt.</p>
 
-<p>De woorden in het meest recente regeerakkoord tellen gemiddeld 6.1 letters. 
-Ze zijn nagenoeg even lang als in de vorige regeerakkoorden (6.1 en 6.1), maar 
-duidelijk langer dan de woorden van De Standaard (5.3).  De recordhouder in het 
+<p>De woorden in het nieuwe regeerakkoord tellen gemiddeld 6.1 letters. 
+Ze zijn nagenoeg even lang als in de vorige regeerakkoorden (telkens 6.1 letters), maar 
+duidelijk langer dan de woorden van De Standaard (5.3 letters).  De recordhouder in het 
 huidige regeerakkoord is “broeikasgasemissiereductiedoelstellingen”, een 
-samenstelling van maar liefst 40 letters.</p>
+vondst van maar liefst 40 letters.</p>
 
 <div id="chart1"></div>
 
 <p>Bij de zinslengte zit er iets meer variatie tussen de regeerakkoorden. 
 In 2004 was een gemiddelde zin zo’n 17 woorden lang, in 2010 bijna 20, 
 nu iets minder dan 19. Dat zijn telkens erg hoge gemiddeldes. 
-In de politieke artikelen van De Standaard die we bekeken, is een zin 
+In de politieke artikelen van De Standaard is een zin 
 gemiddeld minder dan 14 woorden lang.</p>
 
 <div id="chart2"></div>
 
-<p>Ten slotte keken we ook naar de bekendheid van een woord. Net zoals 
-“complexiteit” is ook “bekendheid” geen exact begrip. We gebruikten daarom 
-XX artikelen van de Nederlandstalige Wikipedia als referentie. Voor elk 
-van de teksten telden we hoeveel procent van de woorden minder dan 20 keer 
-voorkwamen in deze artikelen. Opnieuw liggen de percentages van de regeerakkoorden 
-opvallend hoger dan die van De Standaard: zo’n 6,5% à 7% van de woorden in de 
-regeerakkoorden zijn relatief zeldzaam, tegenover 4% in de Standaard.</p>
+<p>Naast woordlengte en zinslengte zegt ook onze vertrouwdheid met een woord iets
+over zijn moeilijkheidsgraad: hoe vaker we een woord tegenkomen, hoe makkelijker
+we het kunnen verwerken. Eén manier om “vertrouwdheid" te definiëren is met behulp
+van een grote collectie algemene teksten, zoals Wikipedia. We beschouwen een woord
+als “zeldzaam” wanneer het minder dan 20 keer voorkomt in een collectie van 240.000
+willekeurige Nederlandstalige Wikipedia-artikelen. Opnieuw zien we dat zulke zeldzame
+woorden veel vaker voorkomen in de regeerakkoorden. Met 6,5% à 7% zeldzame woorden
+zijn deze veel moeilijker te begrijpen dan een krant als De Standaard, waar slechts 4,3% 
+van de woorden zeldzaam zijn.</p>
 
 <div id="chart3"></div>
 
-<p>Geen van deze drie maten zijn perfecte instrumenten om de complexiteit 
+<p>Natuurlijk is geen van deze drie maten een perfect instrument om de complexiteit 
 van een tekst te meten: lange zinnen zijn niet noodzakelijk moeilijker, 
 net zomin als lange of weinig gebruikte woorden dat hoeven te zijn. 
-Toch kunnen ze alledrie, zeker in combinatie, een zinvolle indicatie geven.</p>
+Toch kunnen ze alledrie, zeker in combinatie, een zinvolle indicatie geven van de moeilijkheidsgraad
+van een tekst. </p>
+<p>Onze metingen bevestigen dat het Vlaamse regeerakkoord in een erg complexe taal is opgesteld, die voor veel kiezers moeilijk te begrijpen zal zijn. Door de jaren heen is op dat vlak weinig verbetering
+te merken. Met uitspraken dat de media deze taal naar 
+de bevolking zullen vertalen, zoals Vande Reyde schrijft, ontlopen politici hun verantwoordelijkheid. 
+Ook ongefilterd moeten hun teksten een breed publiek kunnen bereiken. 
+<a href="www.kortom.be">Kortom</a>, de vereniging voor overheidscommunicatie,
+formuleert het zo: “overheidscommunicatie moet voor iedereen toegankelijk zijn” en 
+“overheidscommunicatie wordt in een heldere, duidelijke taal geformuleerd”. Voor het Vlaamse 
+Regeerakkoord is er nog een hele weg te gaan.</p>
+<br />
 
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
 <script type="text/javascript">
