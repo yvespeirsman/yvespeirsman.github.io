@@ -5,7 +5,6 @@ title: About me
 tagline: Yves Peirsman
 tags: [about]
 modified: 27-7-2014
-comments: true
 image:
   feature: NLP_wordle2.png
 ---
