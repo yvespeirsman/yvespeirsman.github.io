@@ -2,7 +2,7 @@ title:            Yves Peirsman
 description:      Welcome to my website and blog.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
 url:              http://yvespeirsman.github.io
-disqus_shortname:
+disqus_shortname: yvespeirsman
 
 # Owner/author information
 owner:
