@@ -1,6 +1,6 @@
 ---
 layout: home
-description: "A responsive Jekyll theme with editorial tendencies by designer Michael Rose."
+description: "Yves Peirsman's website."
 tags: [Jekyll, theme, responsive, blog, template]
 image:
   feature: NLP_wordle2.png
