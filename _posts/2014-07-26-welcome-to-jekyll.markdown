@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hoe moeilijk is het Vlaamse regeerakkoord?"
-date:   2014-07-26 21:31:52
+date:   2014-07-28 11:31:52
 categories: NLP
 ---
 <p><strong>De publicatie van het Vlaamse regeerakkoord eerder deze week maakte heel 
@@ -13,16 +13,16 @@ complexer zijn”, schrijft Vande Reyde over het taalgebruik van onze politici.
 Maar is dat zo? En is het Vlaamse regeerakkoord inderdaad zo moeilijk?</strong><p>
 <br />
 <p>“Moeilijk” is natuurlijk lastig om te definiëren. Toch hoeven we niet alleen
-op ons gevoel te vertrouwen. Taalkundig gebruikt typisch 
+op ons gevoel te vertrouwen. Taalkundig onderzoek gebruikt typisch 
 een aantal eenvoudige maten om de complexiteit van een tekst 
 aanschouwelijk te maken: de gemiddelde lengte van een woord, de gemiddelde lengte 
 van een zin, en onze vertrouwdheid met de gebruikte woorden.</p>
 
-<p>Laten we dus het huidige Vlaamse regeerakkoord op deze vlakken dus eens vergelijken
+<p>Laten we dus het huidige Vlaamse regeerakkoord op deze vlakken eens vergelijken
 met drie andere teksten: 
 de vorige Vlaamse regeerakkoorden uit 2004 en 2010, en een reeks artikelen 
-uit de krant De Standaard. Die laatste dienen als referentiepunt voor teksten die 
-tegelijkertijd kwalitatief hoogstaand en begrijpelijk zijn. Bovendien kozen we met
+uit de krant De Standaard. Die laatste dienen als referentiepunt voor een taalgebruik dat 
+tegelijkertijd kwalitatief hoogstaand en begrijpelijk is. Bovendien kozen we met
 opzet artikelen over het meest recente regeerakkoord, wat de vergelijkbaarheid 
 tussen de teksten aanzienlijk verhoogt.</p>
 
@@ -60,7 +60,7 @@ net zomin als lange of weinig gebruikte woorden dat hoeven te zijn.
 Toch kunnen ze alledrie, zeker in combinatie, een zinvolle indicatie geven van de moeilijkheidsgraad
 van een tekst. </p>
 <p>Onze metingen bevestigen dat het Vlaamse regeerakkoord in een erg complexe taal is opgesteld, die voor veel kiezers moeilijk te begrijpen zal zijn. Door de jaren heen is op dat vlak weinig verbetering
-te merken. Met uitspraken dat de media deze taal naar 
+te merken. Met uitspraken dat de media deze taal wel naar 
 de bevolking zullen vertalen, zoals Vande Reyde schrijft, ontlopen politici hun verantwoordelijkheid. 
 Ook ongefilterd moeten hun teksten een breed publiek kunnen bereiken. 
 <a href="www.kortom.be">Kortom</a>, de vereniging voor overheidscommunicatie,
