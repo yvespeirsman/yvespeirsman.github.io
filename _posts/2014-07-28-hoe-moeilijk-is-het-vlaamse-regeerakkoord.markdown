@@ -78,7 +78,7 @@ Regeerakkoord is er nog een hele weg te gaan.</p>
       function drawVisualization() {
         // Create and populate the data table.
         var data = google.visualization.arrayToDataTable([
-          ['a','x',{ role: 'style' }],
+          ['tekst','woordlengte',{ role: 'style' }],
           ['2004',  6.1, 'orange'],
           ['2010',  6.1, 'orange'],
           ['2014',  6.1, 'orange'],
@@ -102,7 +102,7 @@ Regeerakkoord is er nog een hele weg te gaan.</p>
       function drawVisualization() {
         // Create and populate the data table.
         var data = google.visualization.arrayToDataTable([
-          ['a','x',{ role: 'style' }],
+          ['tekst','percentage zeldzame woorden',{ role: 'style' }],
           ['2004',  6.4, 'orange'],
           ['2010',  6.6, 'orange'],
           ['2014',  7.1, 'orange'],
@@ -125,7 +125,7 @@ Regeerakkoord is er nog een hele weg te gaan.</p>
       function drawVisualization() {
         // Create and populate the data table.
         var data = google.visualization.arrayToDataTable([
-          ['a','x',{ role: 'style' }],
+          ['tekst','zinslengte',{ role: 'style' }],
           ['2004',  17.2, 'orange'],
           ['2010',  19.8, 'orange'],
           ['2014',  18.8, 'orange'],
