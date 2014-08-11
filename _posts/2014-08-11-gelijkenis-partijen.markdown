@@ -14,27 +14,13 @@ vergelijken. De resultaten geven een fascinerend inzicht in ons politieke landsc
 
 <p>Laten we bijvoorbeeld het woordgebruik analyseren in de verkiezingsprogramma’s waarmee de grootste Vlaamse partijen afgelopen
 lente naar de kiezer trokken. Door te tellen hoe vaak elk woord in zo’n programma voorkomt, kunnen we
-bepalen hoe belangrijk een partij een politiek thema vindt. Gaat het om een partij die mobiliteit
-belangrijk vindt? Verwacht hoge frequenties voor woorden als “vervoer”, “transport”, “bus”, “fiets”
-of “auto”. Legt een partij eerder de nadruk op onderwijs? Verwacht hoge cijfers voor “leerkracht”, 
-“school”, “leerling”, enzovoort. Als twee partijen dezelfde thema’s belangrijk vinden, zal dus ook 
+meten hoe belangrijk een partij een politiek thema vindt. Gaat het om een partij die mobiliteit hoog in het vaandel voert? Verwacht hoge frequenties voor woorden als “vervoer”, “transport”, “bus”, “fiets”
+of “auto”. Legt een partij eerder de nadruk op onderwijs? Dan zullen woorden als “leerkracht”, 
+“school” en “leerling” vaak voorkomen. Als twee partijen dezelfde thema’s belangrijk vinden, zal dus ook 
 hun woordgebruik normaal gezien erg gelijkaardig zijn.</p>
 
-<p class="nomargin">Toch is een waarschuwing op zijn plaats: 
-woordfrequenties kunnen natuurlijk niet alle nuances van een 
-verkiezingsprogramma vatten. Neem bijvoorbeeld de volgende twee zinnen: 
-<blockquote>
-We zullen de werkloosheidsuitkeringen in de tijd beperken.<br />
-We zullen de werkloosheidsuitkeringen niet in de tijd beperken.
-</blockquote> 
-<p class="noindent">Ondanks hun bijna identieke woordgebruik, staan deze zinnen
-qua betekenis lijnrecht tegenover elkaar. Als twee partijen vaak met dezelfde woorden
-schermen, zegt dat dus niet noodzakelijk iets over hun complexe politieke standpunten. 
-Wat woordgebruik wel blootlegt, is de thema’s waar een partij belang aan hecht. Het blijkt dat ook
-deze thematische verwantschap heel wat informatie over ons politieke landschap bevat.</p>
-
-<p class="nomargin">De figuur hieronder vergelijkt het woordgebruik in de programma’s van de zes
-grootste Vlaamse partijen. Hoe donkerder het vakje
+<p class="nomargin">De figuur hieronder toont de gelijkenis in woordgebruik tussen de programma’s van de 
+zes grootste Vlaamse partijen. Hoe donkerder het vakje
 op het snijpunt van de twee partijen, hoe meer de partijprogramma’s op elkaar lijken. De patronen
 zijn erg herkenbaar: aan de linkerkant van de figuur lijken Sp.a en Groen sterk op elkaar,
 aan de rechterkant vinden we de hoogste verwantschap tussen N-VA en OpenVld. Sommige partijen, zoals
@@ -44,21 +30,34 @@ met andere partijen: hun programma beslaat een een breed thematisch spectrum. An
 <div id="chart"></div>
 
 <p class="indent">Laten we eens naar de woorden kijken die de relaties tussen de partijen het beste
-beschrijven. Groen en Sp.a danken hun hoge verwantschap aan woorden als “wijkgezondheidscentra”,  “genderidentiteit, “coöperatief” en “jeugdzorg”. N-VA en OpenVld hameren beide op “overheidsbeslag”,
+beschrijven. Groen en Sp.a danken hun hoge verwantschap aan woorden als “wijkgezondheidscentra”,  “genderidentiteit, “coöperatief” en “jeugdzorg”. N-VA en OpenVld schermen beide met “overheidsbeslag”,
 “pensioenleeftijd” en “zelfstandige”. Met Vlaams Belang deelt N-VA dan weer zijn nadruk op 
 nationaliteit enerzijds (“Wallonië”, “Franstalig”, “nationaliteit”, “Vlaming”, “vreemdelingen”), en criminaliteit anderzijds (“politie”, “criminaliteit” en “gevangenis”). Ook “splitsing” komt vaak voor. 
 CD&V, ten slotte, deelt met Sp.a zijn bekommernis om zorg (“zorgbehoefte”, “zorgvorm”, “psychiatrie”),
 en met N-VA zijn aandacht voor de economie (“vooruitgang”, “ondernemingszin”,” werkplek”, “horeca”).</p>
 
-<p class="nomargin">Natuurlijk kunnen we niet alleen verkiezingsprogramma's met elkaar vergelijken. Het wordt
-pas echt interessant wanneer we ook het nieuwste regeerakkoord bij de studie betrekken. 
-Zoals de figuur hieronder toont, zijn vooral de programma’s van de CD&V en de N-VA thematisch
-erg verwant aan dat akkoord. Dat mag niet verrassen: beide partijen onderhandelden tenslotte wekenlang over
+<p class="nomargin">Hoe overtuigend deze resultaten ook lijken, 
+woordfrequenties kunnen natuurlijk niet alle nuances van een 
+verkiezingsprogramma vatten. Neem bijvoorbeeld de volgende twee zinnen: 
+<blockquote>
+We zullen de werkloosheidsuitkeringen in de tijd beperken.<br />
+We zullen de werkloosheidsuitkeringen niet in de tijd beperken.
+</blockquote> 
+<p class="noindent">Ondanks hun bijna identieke woordgebruik, staan deze zinnen
+qua betekenis lijnrecht tegenover elkaar. Als twee partijen vaak dezelfde woorden gebruiken,
+ zegt dat dus niet noodzakelijk iets over hun complexe politieke standpunten. 
+Wat woordgebruik wel blootlegt, is de thema’s waar een partij belang aan hecht. Uit de resultaten 
+hierboven blijkt dat ook
+deze thematische verwantschap heel wat informatie over ons politieke landschap bevat.</p>
+
+<p class="nomargin">Vanzelfsprekend kunnen we niet alleen verkiezingsprogramma's met elkaar vergelijken. Onze studie wordt
+pas echt interessant wanneer we ook het nieuwste regeerakkoord erbij betrekken. 
+In de figuur hieronder zie je dat vooral de programma’s van de CD&V en de N-VA thematisch
+erg verwant zijn aan dat akkoord. Dat mag niet verrassen: beide partijen onderhandelden tenslotte wekenlang over
 het resultaat. Typische N-VA-woorden in het regeerakkoord zijn “ondernemingszin”, “inburgering”,
 “efficiëntie” en “activeringsbeleid”. Typische CD&V-woorden zijn “gezinszorg”, “jeugdhulp” en
-“vervoersnetwerk”. De verkiezingsprogramma's van Groen en Sp.a vertonen al heel wat minder 
-gelijkenissen met het akkoord, en dat van Vlaams Belang wijkt nog meer af. Ook dat bevestigt
-de verwachtingen.</p>
+“vervoersnetwerk”. Zoals verwacht vertonen de verkiezingsprogramma's van Groen en Sp.a al heel wat minder 
+gelijkenissen met het regeerakkoord. Dat van Vlaams Belang wijkt het meeste af.</p>
 
 <div id="chart2"></div>
 
@@ -79,8 +78,7 @@ Anderzijds geeft ze ook nieuwe inzichten: zo meet ze de invloed die de regerings
 regeerakkoord hadden, en toont ze dat OpenVld waarschijnlijk heel wat minder in de pap te brokken had
 dan CD&V en N-VA. Toch moeten we voorzichtig blijven. Een echte politieke analyse gaat natuurlijk heel
 wat dieper dan dit experiment, en zal naast de algemene thema’s bijvoorbeeld ook de meer complexe 
-partijstandpunten bekijken. Daarvoor
-moet je dan weer meer doen dan woorden tellen.</p>
+partijstandpunten bekijken. Ook taaltechnologie heeft tenslotte zijn limieten.</p>
 
 
 <script src="http://d3js.org/d3.v3.js"></script>
