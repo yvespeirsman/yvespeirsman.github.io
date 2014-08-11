@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Taaltechnologie bewijst: OpenVld had de kleinste invloed op het Vlaamse regeerakkoord"
-date:   2014-07-28 11:31:52
+date:   2014-08-12 11:31:52
 categories: 
 comments: true
 ---
