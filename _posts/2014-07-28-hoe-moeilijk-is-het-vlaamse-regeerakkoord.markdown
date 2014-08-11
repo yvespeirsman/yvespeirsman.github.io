@@ -5,14 +5,14 @@ date:   2014-07-28 11:31:52
 categories: NLP
 comments: true
 ---
-<p><strong>De publicatie van het Vlaamse regeerakkoord eerder deze week maakte heel 
+<p class="first">De publicatie van het Vlaamse regeerakkoord eerder deze week maakte heel 
 wat reacties los, niet enkel op politiek, maar ook op taalkundig vlak. Schrijfster Ann De Craemer hekelde de holle woordenbrij 
 in een <a href="http://www.demorgen.be/dm/nl/30969/Regeringsvorming/article/detail/1957085/2014/07/24/De-lulkoektaal-van-het-Vlaamse-wezelwoordakkoord.dhtml">column in De Morgen</a>, 
 maar kreeg al snel <a href="http://www.demorgen.be/dm/nl/2461/Opinie/article/detail/1958641/2014/07/24/Schrijven-wij-lulkoek-Dat-is-gewoon-de-wereld-van-het-beleid-maken.dhtml">lik op stuk</a> van Maurits Vande Reyde, 
 beleidsmedewerker van Open Vld. “Zaken worden complexer verwoord omdat ze nu eenmaal 
 complexer zijn”, schrijft Vande Reyde over het taalgebruik van onze politici. 
-Maar is dat zo? En is het Vlaamse regeerakkoord inderdaad zo moeilijk?</strong><p>
-<br />
+Maar is dat zo? En is het Vlaamse regeerakkoord inderdaad zo moeilijk?<p>
+
 <p>“Moeilijk” is natuurlijk lastig om te definiëren. Toch hoeven we niet alleen
 op ons gevoel te vertrouwen. Taalkundig onderzoek gebruikt typisch 
 een aantal eenvoudige maten om de complexiteit van een tekst 
