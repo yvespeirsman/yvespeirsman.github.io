@@ -53,7 +53,7 @@ deze thematische verwantschap heel wat informatie over ons politieke landschap b
 <p class="nomargin">Vanzelfsprekend kunnen we niet alleen verkiezingsprogramma's met elkaar vergelijken. Onze studie wordt
 pas echt interessant wanneer we ook het nieuwste regeerakkoord erbij betrekken. 
 In de figuur hieronder zie je dat vooral de programma’s van de CD&V en de N-VA thematisch
-erg verwant zijn aan dat akkoord. Dat mag niet verrassen: beide partijen onderhandelden tenslotte wekenlang over
+erg verwant zijn aan dat akkoord. Dat mag niet verbazen: beide partijen onderhandelden tenslotte wekenlang over
 het resultaat. Typische N-VA-woorden in het regeerakkoord zijn “ondernemingszin”, “inburgering”,
 “efficiëntie” en “activeringsbeleid”. Typische CD&V-woorden zijn “gezinszorg”, “jeugdhulp” en
 “vervoersnetwerk”. Zoals verwacht vertonen de verkiezingsprogramma's van Groen en Sp.a al heel wat minder 
