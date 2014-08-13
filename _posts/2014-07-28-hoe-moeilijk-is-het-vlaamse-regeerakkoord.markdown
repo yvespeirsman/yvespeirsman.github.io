@@ -2,7 +2,6 @@
 layout: post
 title:  "Hoe moeilijk is het Vlaamse regeerakkoord?"
 date:   2014-07-28 11:31:52
-categories: blog
 tags: NLP, difficulty
 comments: true
 ---

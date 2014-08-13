@@ -2,7 +2,6 @@
 layout: post
 title:  "Taaltechnologie bewijst: OpenVld had de kleinste invloed op het Vlaamse regeerakkoord"
 date:   2014-08-12 11:31:52
-categories: blog
 tags: NLP, politics, similarity
 comments: true
 ---
