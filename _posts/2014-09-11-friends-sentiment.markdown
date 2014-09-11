@@ -22,7 +22,8 @@ divided the result by the number of sentences. This gave me a mean sentiment sco
 how positive or negative the episode is. I then did the same for the ten seasons of the series.</p>
 
 <p class="nomargin">The graph below shows these mean sentiment scores for all ten seasons of Friends. 
-Their tone seems to have become more positive through the years: the language in the last five
+On average, episodes are slightly more positive than negative, with a typical sentiment score between 0.05 and 0.07.
+Their tone also appears to have become more positive through the years: the language in the last five
 seasons is consistently more positive than that in the first five. 
 The first season is the least positive one, the last season brought the happy ending
 that everyone was waiting for:</p>
@@ -30,7 +31,8 @@ that everyone was waiting for:</p>
 <div id='seasonChart'></div>
 
 <p class="nomargin">If we zoom in on the individual episodes in every season, we can see their  
-sentiment scores are all over the place. For what it’s worth, episode 22, 
+sentiment scores are all over the place. The graph below has all episodes in a season (typically 24) on the 
+X axis, and their sentiment score on the Y axis. Each season has a different color. For what it’s worth, episode 22, 
 near the end of each season, appears to have the widest variation in sentiment. Immediately 
 after that, most seasons end in a balance of emotions, with very little variation between 
 episodes 23 and 24 across the seasons:</p>
