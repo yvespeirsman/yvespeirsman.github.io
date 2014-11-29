@@ -16,3 +16,8 @@ div.addthis_sharing_toolbox {
     width: 125px;
     margin: 0 auto;
 }
+
+img.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
