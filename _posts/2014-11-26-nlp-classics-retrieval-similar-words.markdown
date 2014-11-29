@@ -8,7 +8,7 @@ comments: true
 
 <p class="first">In this series of blog posts, I present some of the most influential papers from the recent history of Natural Language Processing. First up is Dekang Lin's <a href="https://webdocs.cs.ualberta.ca/~lindek/papers/acl98.pdf">Automatic Retrieval and Clustering of Similar Words</a>, published in 1998. Lin’s paper, which has been cited more than 1500 times according to Google, explains how computers can automatically find words with a similar meaning. This similarity can be exploited by search engines like Google, for example, in order to find more relevant web pages for a given search term.</p>
 
-<p class="nomargin">Last month I learnt a new word: <i>echidna</i>. Unless you know Greek, the word itself gives you no clue to its meaning. For all you know, its meaning might be similar to <i>influenza</i>, <i>geyser</i>, <i>hedgehog</i> or <i>oak</i>. Now suppose I gave you these four sentences, which describe my first meeting with the creature:</p>
+<p class="nomargin">Last month I learnt a new word: <i>echidna</i>. Unless you know Greek, the word itself gives you no clue to its meaning. For all you know, its meaning might be similar to <i>influenza</i>, <i>geyser</i>, <i>hedgehog</i> or <i>oak</i>. Now suppose I gave you these four sentences, which describe my first encounter with an echidna:</p>
 
 <blockquote>
 I looked up at the sound, and suddenly I saw an echidna next to the trail. <br />
