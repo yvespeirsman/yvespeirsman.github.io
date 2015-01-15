@@ -3,14 +3,14 @@ layout: page
 permalink: /about/
 title: About me
 tagline: Yves Peirsman
-tags: [about]
+tags: [Yves Peirsman]
 modified: 27-7-2014
 image:
   feature: NLP_wordle2.png
 ---
 
 <div itemscope itemtype="http://data-vocabulary.org/Person">
-<p>Hi, I'm <span itemprop="name">Yves Peirsman</a>. 
+<p>Hi, I'm <span itemprop="name">Yves Peirsman</span>. 
 I work as a <span itemprop="title">Natural Language Processing Consultant</span>, to help companies
 with the implementation of NLP methods. I'm particularly interested in all aspects of meaning, 
 such as document classification or sentiment analysis,
