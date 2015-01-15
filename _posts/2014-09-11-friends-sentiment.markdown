@@ -2,7 +2,7 @@
 layout: post
 title:  "Through Good Times and Bad Times: Measuring the Happiest and Saddest Episodes of Friends"
 date:   2014-08-27 11:31:52
-tags: NLP, sentiment, television, friends
+tags: NLP sentiment television friends
 comments: true
 ---
 <p>This September 20 years ago, the first episode of Friends aired on NBC. 

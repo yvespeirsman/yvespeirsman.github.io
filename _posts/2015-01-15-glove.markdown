@@ -2,7 +2,7 @@
 layout: post
 title:  "Notable NLP: GloVe &mdash; Global Vectors for Word Representations"
 date:   2015-01-15 9:00:00
-tags: NLP, semantics, meaning, words, glove, vectors, notable
+tags: NLP semantics meaning words glove vectors notable
 comments: true
 ---
 

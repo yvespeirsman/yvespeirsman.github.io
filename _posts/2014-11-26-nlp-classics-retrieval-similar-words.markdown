@@ -2,7 +2,7 @@
 layout: post
 title:  "NLP Classics (1): Automatic Retrieval and Clustering of Similar Words"
 date:   2014-11-29 9:00:00
-tags: NLP, semantics, meaning, words
+tags: NLP semantics meaning words
 comments: true
 ---
 
