@@ -13,9 +13,10 @@ layout: nil
     </url>
     {% endfor %}
 
-    {% for post in site.posts %}
+    {% for post in site.categories.blog %}
     <url>
         <loc>{{ site.url }}{{ post.url }}</loc>
     </url>
     {% endfor %}
+
 </urlset>
