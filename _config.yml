@@ -1,7 +1,7 @@
 title:            Yves Peirsman
 description:      Welcome to my website and blog.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://yvespeirsman.github.io
+url:              http://localhost:4000
 disqus_shortname: yvespeirsman
 
 # Owner/author information
@@ -35,9 +35,9 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About
-    url: /about/
-  - title: Posts
+  - title: Home
+    url: {{ site.url }}
+  - title: All Posts
     url: /blog/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
