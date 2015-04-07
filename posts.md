@@ -1,7 +1,7 @@
 ---
 layout: post-index
-permalink: /posts/
-title: All Posts
+permalink: /blog/
+title: Yves Peirsman's blog
 tagline: A List of Posts
 tags: [blog]
 ---
