@@ -1,7 +1,7 @@
 ---
 title:  "Machine Translation"
 img: fa-language
-modal-id: mt
+modal-id: 3
 description: > 
   There is more to Machine Translation than Google Translate. 
   I have extensive experience training and optimizing 

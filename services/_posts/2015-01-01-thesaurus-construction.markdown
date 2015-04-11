@@ -1,7 +1,7 @@
 ---
 title:  "Thesaurus Construction"
 img: fa-list-ol
-modal-id: tc
+modal-id: 1
 description: >
   Thesauri are the foundation for many Information Retrieval systems. 
   Search engines, for example, extend the queries of their users by 
