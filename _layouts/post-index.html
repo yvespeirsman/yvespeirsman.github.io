@@ -5,6 +5,11 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 {% include _head.html %}
+<style>
+img.bio-photo {
+    padding-top: 25px;
+}
+</style>
 </head>
 
 <body class="post-index">
@@ -36,7 +41,7 @@
 
 <div id="index">
   <h1>{{ page.title }}</h1>
-  {% for post in site.posts %}  
+  {% for post in site.categories.blog %}  
   {% unless post.next %}
     <h3>{{ post.date | date: '%Y' }}</h3>
     {% else %}
