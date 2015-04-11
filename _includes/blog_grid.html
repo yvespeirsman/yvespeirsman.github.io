@@ -17,7 +17,7 @@
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-				<h4>{{ post.title }}</h4>
+				<h4 class="color-ternary">{{ post.title }}</h4>
 				<p class="small">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 170 }}{% endif %}</p>
                         </a>
                     </div>

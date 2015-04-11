@@ -9,7 +9,7 @@ body {
 }
 
 p {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 p.small {
@@ -34,6 +34,10 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+}
+
+.color-ternary {
+    color: #{{ site.color.ternary }};
 }
 
 hr.star-light,
@@ -234,11 +238,6 @@ section.success {
 
 #projects .portfolio-item .portfolio-link .caption .caption-content i {
     margin-top: -12px;
-}
-
-#projects .portfolio-item .portfolio-link .caption .caption-content h3,
-#projects .portfolio-item .portfolio-link .caption .caption-content h4 {
-    margin: 0;
 }
 
 #projects * {

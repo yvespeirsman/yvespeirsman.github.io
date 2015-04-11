@@ -9,15 +9,18 @@
                 </div>
             </div>
             <div class="row">
-                {% for post in site.posts %}
+                {% for post in site.categories.projects %}
                     <div class="col-sm-4 portfolio-item">
                         <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
+                                    <i class="fa fa-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+			    <div class="text-center">
+			    <br /><i class="fa {{post.img}} fa-5x color-ternary"></i><br />
+			    <br /><h4>{{ post.title }}</h4><br />
+			    </div>
                         </a>
                     </div>
                 {% endfor %}
