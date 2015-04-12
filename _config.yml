@@ -69,7 +69,7 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site settings
 email: yves.peirsman@gmail.com
-description: "This is the website and blog of Yves Peirsman, Natural Language Processing Consultant. 
+description: "This is the website and blog of Yves Peirsman, Natural Language Processing Consultant." 
 
 # Contact form: comment the line below if you want to stick with the default PHP contact form
 contact: static
