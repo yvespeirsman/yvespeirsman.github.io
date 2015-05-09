@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Text Retrieval & Search Engines (Coursera): Week 3 Part 2: User Feedback"
-shorttitle: "Text Retrieval Week 3: Feedback"
+shorttitle: "Text Retrieval Week 3: Feedback (Coursera)"
 date:   2015-04-23 9:00:00
 tags: NLP text retrieval search engines Coursera
 comments: true
