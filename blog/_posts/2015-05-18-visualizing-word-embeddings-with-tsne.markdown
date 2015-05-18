@@ -10,7 +10,9 @@ comments: true
 
 <p>t-SNE was developed by Laurens van der Maaten at the University of Delft. It won Maarten the <a href="https://www.kaggle.com/c/MerckActivity/prospector#186">Merck Visualization Challenge on Kaggle</a>, and has been applied to images, word embeddings, movies, and similar high-dimensional datasets. Maarten’s website contains links to implementations of the technique in a variety of programming languages, in addition to the research papers that go into the gory details of the underlying maths.</p>
 
-<p>I tested out t-SNE by visualizing the 300-dimensional word embeddings produced by GloVe, which you can download from the <a href="http://nlp.stanford.edu/projects/glove/">GloVe</a> website. As you’ll see, this is a really simple process. First we read in the word embeddings and labels from two text files. The embeddings file contains one vector per line, with the values for all dimensions separated by tabs. The label file has the labels for these vectors &mdash; one label per line, in the same order as the vectors in the embeddings file.</p>
+<p>I tested out t-SNE by visualizing the 300-dimensional word embeddings produced by GloVe, a deep learning method developed at Stanford University. Word embeddings model the contexts in which words appear, and are often used as a way of measuring the semantic similarity between two words. You can download a large number of example word embeddings directly from the <a href="http://nlp.stanford.edu/projects/glove/">GloVe website</a>. As you’ll see, t-SNE really makes it easy to visualize these 300-dimensional embeddings in two dimensions, and to get a rough idea of their quality.</p>
+
+<p>Let’s go through the process step by step. First we read in the word embeddings and their labels from two text files. The embeddings file should contain one vector per line, with the values for all dimensions separated by tabs. The label file should list the labels for these vectors &mdash; one label per line, in the same order as the vectors in the embeddings file.</p>
 
 <div class="highlight"><pre><code>import numpy as Math
 import pylab as Plot
