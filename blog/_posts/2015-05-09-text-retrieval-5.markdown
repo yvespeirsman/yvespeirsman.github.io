@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Text Retrieval & Search Engines (Coursera): Week 4 Part 1: Web Search"
+title:  "Text Retrieval & Search Engines (Coursera): Week&nbsp;4 Part&nbsp;1: Web Search"
 shorttitle: "Text Retrieval Week 4: Web Search (Coursera)"
 date:   2015-05-09 17:30:00
 tags: NLP text retrieval search engines Coursera
