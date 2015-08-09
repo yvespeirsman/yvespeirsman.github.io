@@ -6,6 +6,8 @@
 
 p { line-height: 1.5; 
     margin-bottom: 40px; }
+ul { line-height: 1.5
+}
 p.first { font-weight:bold; }
 p.nomargin { margin-bottom: 0px; }
 p.noindent { text-indent: 0px; }
