@@ -27,3 +27,7 @@ img.centered {
 img.bio-photo {
     padding-top: 25px;
 }
+
+iframe {    
+ border:0 none;
+}
