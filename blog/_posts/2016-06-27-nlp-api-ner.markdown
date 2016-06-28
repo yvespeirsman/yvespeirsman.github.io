@@ -68,7 +68,7 @@ Per entity type, I use three standard metrics to measure the quality of the API:
 <ul class="nomargin">
 <li>Precision: If an API identifies a word or word sequence as an entity, how likely is this to be correct?</li>
 <li>Recall: What percentage of entities in the text does the API identify correctly?</li>
-<li>F-score: the (harmonic) mean between precision and recall captures the quality of the API for each entity type 
+<li>F-score: the (harmonic) mean of precision and recall captures the quality of the API for each entity type 
 in one single figure.</li>
 </ul>
 </p>
@@ -76,12 +76,12 @@ in one single figure.</li>
 <p class="noindent">
 Here are some additional rules of the game:
 <ul class="nomargin">
-<li>I use the available APIs as off-the-shelf services, without tweaking the results. Some APIs give a confidence score for every entity, which would allow users to filter out entities with low confidence. This is potentially interesting, but it also takes quite some effort, so I just evaluate the output as-is.</li>
+<li>I use the available APIs as off-the-shelf services, without tweaking the results. Some APIs give a confidence score for every entity, which would allow users to filter out entities with a low confidence. This is potentially interesting, but it also takes quite some effort, so I just evaluate the output as-is.</li>
 <li>When an API misclassifies a location as an organization, or vice versa, I don’t penalize it and just follow the 
 classification of the API. Place names are often ambiguous (as in <em>Iran said …</em>), so let’s not be too strict.</li>
-<li>When an API identifies an entity but does not classify as a person, location or organization, I ignore it.</li>
+<li>When an API identifies an entity but does not classify it as a person, location or organization, I ignore it.</li>
 <li>Some APIs are able to identify adjectives (such as <em>Chinese</em>) as locations (<em>China</em>), others are not. If they do so, I count these entities as correct, but if they don’t, I don’t penalize them. Again, let’s not be too strict.</li>
-<li>Some APIs not only identify entities in a sentence, but also try to determine the real-world entity that is referred to, 
+<li>Some APIs not only identify entities in a sentence, but also try to determine the real-world entity that it refers to, 
 and give a link to the relevant Wikipedia page. Because not all APIs provide it, I ignore this reference, whether
 it is correct or not.</li>
 </ul>
@@ -156,7 +156,10 @@ It finds 99% of all locations in the test sentences (recall), and when it identi
 this is correct in 93% of the cases (precision). AlchemyAPI is in second position, with an F-score of 90.8%. Its entities
 are also correct in 93% of the cases (precision), but it only finds 89% of all locations.
 Likewise, the other three APIs all achieve a precision of 93% and above, but their recall suffers greatly: 
-MeaningCloud finds 76% of all locations, Aylien 68%, and Lexalytics a meagre 53%. Let me give two examples to
+MeaningCloud finds 76% of all locations, Aylien 68%, and Lexalytics a meagre 53%. 
+</p>
+
+<p>Let me give two examples to
 show what this means in practice. In the following sentence, Aylien fails to identify <em>Copenhagen</em> as a location:
 <blockquote class="nomargin">
 A city surrounded by water, Copenhagen is a joy for swimmers, especially as midsummer looms and winter becomes a distant memory.
@@ -209,7 +212,7 @@ In many ways, I’ve tested only the most basic features of named entity recogni
 harder when the identified entities have to be linked to their correct real-world counterpart (such as <em>NFF</em> 
 in the sentence above), or when several mentions of the same entity (<em>Donald Trump … Trump … he</em>) have to be 
 mapped to one and the same referent. Similarly, even the best APIs struggle when they have to disambiguate an entity 
-and infer that <em>Southwest</em> in a context such as <em>drier than normal conditions in the Southwest</em> 
+and infer, for example, that <em>Southwest</em> in a context such as <em>drier than normal conditions in the Southwest</em> 
 refers to a location rather than a company. Kudos to AlchemyAPI, which was the only one in this test to get this example right. 
 There’s no way this can be done without the basic entity recognition 
 that I’ve tested here. 
