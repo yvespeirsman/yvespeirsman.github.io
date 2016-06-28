@@ -31,3 +31,23 @@ img.bio-photo {
 iframe {    
  border:0 none;
 }
+
+blockquote.nomargin {
+    display: block;
+    margin-top: -1.5em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+ul.nomargin {
+    margin-top: -1.5em;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+}
