@@ -88,7 +88,7 @@ it is correct or not.</li>
 </p>
 
 <p>
-TextRazor’s offering is slightly confusing, because it classifies entities as both <a href="http://wiki.dbpedia.org/">DBPedia</a>
+TextRazor’s offering is pretty complex, because it classifies entities as both <a href="http://wiki.dbpedia.org/">DBPedia</a>
  categories and <a href="http://wiki.freebase.com/wiki/Main_Page">Freebase</a> types. 
 Not only do these two sources have completely different lists of categories, sometimes the Textrazor classifications do not agree. 
 In a sentence such as <em>Iraqi troops begin operation to seize Falluja from Isis</em>, <em>Isis</em> is classified 
@@ -100,8 +100,14 @@ categories for every entity, most of which are really specific and frankly, irre
 <em>/travel/travel_destination</em>, wherever it occurs? I know I’m not.
 </p>
 
+<p>Aylien’s API, too, is rather confusing, but in a different way: the API has two endpoints that can be used for entity extraction 
+(Entity and Concept extraction), and their results can be very different. Aylien’s Concept extraction makes use of an external knowledge
+base (e.g. DBPedia), whereas its Entity extraction is purely self-contained. Concept extraction makes use of rather specific DBPedia entity types (e.g. Scientist,
+OfficeHolder, TennisPlayer, etc. are all types of Person), whereas Entity extraction has just the three main categories (Location, 
+Person, Organization). Concept extraction can also return several entity types per entity, whereas Entity extraction sticks to one.</p>
+
 <p>
-Luckily, the other APIs return just one category per identified entity. The table below shows how I mapped them to the three
+The remaining APIs are simpler, and return just one category per identified entity. The table below shows how I mapped them to the three
 main entity types.
 
  <table style="width:100%">
@@ -156,13 +162,16 @@ It finds 99% of all locations in the test sentences (recall), and when it identi
 this is correct in 93% of the cases (precision). AlchemyAPI is in second position, with an F-score of 90.8%. Its entities
 are also correct in 93% of the cases (precision), but it only finds 89% of all locations.
 Likewise, the other three APIs all achieve a precision of 93% and above, but their recall suffers greatly: 
-MeaningCloud finds 76% of all locations, Aylien 68%, and Lexalytics a meagre 53%. 
+MeaningCloud finds 76% of all locations, Aylien's Concept extraction 72%, its Entity extraction 68%, and Lexalytics a meagre 53%. 
 </p>
 
 <p>Let me give two examples to
-show what this means in practice. In the following sentence, Aylien fails to identify <em>Copenhagen</em> as a location:
+show what this means in practice. In the following sentence, Aylien’s Concept Extraction 
+finds <em>Belgium</em>, but fails to classify it as a person, location or organization.
+Its Entity extraction does not identify it at all. Both endpoints miss all four people:
 <blockquote class="nomargin">
-A city surrounded by water, Copenhagen is a joy for swimmers, especially as midsummer looms and winter becomes a distant memory.
+Belgium created the game’s first opening when Lukaku and Fellaini
+combined to tee up Nainggolan for a 25-yard drive that Buffon pushed away
 </blockquote>
 <p class="noindent">And in</p>
 <blockquote class="nomargin">
@@ -176,10 +185,10 @@ That’s downright disappointing.</p>
 <p>
 The results for organizations and people follow a similar pattern. Again, Textrazor and AlchemyAPI are in first and second 
 position, respectively. Textrazor is particularly strong at identifying many entities (recall), AlchemyAPI wants to get them right (precision). 
-MeaningCloud is a solid third place, while Lexalytics and Aylien are really struggling. 
-Interestingly, Lexalytics consistently gets the best precision of the bunch, so there’s a chance its recall and F-score 
-can be improved by setting a lower confidence threshold for the entities. In this way it might find more entities and show
-a more balanced performance. 
+MeaningCloud is a solid third place, while the performance of Aylien depends on the endpoint you use: the Concepts endpoint is better at identifying
+well-known people, places and organizations, while for lesser known entities and surnames without a first name, the Entities endpoint mostly does
+a better job. Lexalytics achieves a very high precision, but its recall is really low. It’s possible its recall and F-score 
+can be improved by setting a lower confidence threshold for the entities.
 <iframe width="599.4557377049182" height="370.61469858156033" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/16EIiMRHZHqy6mE9kbMtK4nGSMa-XbqtC7A_nRd2TOJ4/pubchart?oid=494995784&amp;format=interactive"></iframe>
 <iframe width="602" height="372.10226424361497" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/16EIiMRHZHqy6mE9kbMtK4nGSMa-XbqtC7A_nRd2TOJ4/pubchart?oid=1492503240&amp;format=interactive"></iframe>
 </p>
@@ -190,10 +199,11 @@ Some of the more striking results can help illustrate the differences between th
 Jenson Button was an encouraging seventh for McLaren, matching the time of Williams' Valtteri Bottas in sixth.
 </blockquote>
 </p>
-<p class="noindent">both Lexalytics and Aylien fail to identify a single entity, although there are two people (<em>Jenson Button</em> and 
+<p class="noindent">both Lexalytics and Aylien’s Entity extraction fail to identify a single entity, although there are two people (<em>Jenson Button</em> and 
 <em>Valtteri Bottas</em>) and two organizations (<em>McLaren</em> and <em>Williams</em>). Textrazor and MeaningCloud find all four 
-entities correctly. AlchemyAPI finds <em>Valtteri Bottas</em>, but it misses <em>Jenson Button</em> and misclassifies 
-<em>McLaren</em> and <em>Williams</em> as people.
+entities correctly. Aylien’s Concept extraction finds three entities, but fails to identify Williams as an organization. 
+AlchemyAPI finds <em>Valtteri Bottas</em>, but it misses <em>Jenson Button</em> and misclassifies 
+<em>McLaren</em> and <em>Williams</em> as people. 
 </p>
 <p>
 In the sentence
@@ -201,7 +211,7 @@ In the sentence
 This statement by the vice president of the NFF, Seyi Akinwunmi, is a repeat of homophobic statements made by football officials in the country in the past which were strongly condemned by FIFA.
 </blockquote>
 </p>
-<p class="noindent">Aylien does not find a single entity. MeaningCloud and Lexalytics both find <em>FIFA</em> (organization), but miss 
+<p class="noindent">Aylien’s endpoints do not classify a single entity as person, location or organization. MeaningCloud and Lexalytics both find <em>FIFA</em> (organization), but miss 
 <em>NFF</em> (organization) and <em>Seyi Akinwunmi</em> (person). Textrazor and AlchemyAPI find all three entities, 
 although they both map <em>NFF</em> to the Norwegian Football Federation, and not the Nigerian one. 
 </p>
@@ -223,7 +233,11 @@ It is certainly true that the NLP APIs in this article have made basic NLP tasks
 to the masses. However, while the offerings may look similar on the outside, their differences become very clear 
 when we measure their performance. In my NER test, Textrazor outperformed all others, but it did so with long 
 and often confusing lists of possible entity types. AlchemyAPI’s results were much more straightforward, but 
-it found considerably fewer entities. MeaningCloud performed reasonably well on simple examples, but struggled 
-on the more complex ones. Lexalytics and Aylien were simply below par, and have their work cut out for them.
-In short: buyer beware!
+it found considerably fewer entities. MeaningCloud performed reasonably well on simple examples, but failed to perform
+on the more complex ones. Aylien has two endpoints that both struggle at times, and its plans to merge them
+should really pay off. Lexalytics has its work cut out. Of course, it is important 
+to bear in mind that my evaluation
+exercise is rather informal and only looked at 100 sentences typical of one 
+linguistic style and domain. It’s always possible that other domains may give different results.
+Still, it clearly pays off to compare the various APIs available, so buyer beware!
 </p>
