@@ -24,6 +24,11 @@ img.centered {
     margin-left: auto;
     margin-right: auto }
 
+img.padded {
+    padding-top: -1.5em;
+    padding-bottom: 2em;
+}
+
 img.bio-photo {
     padding-top: 25px;
 }
@@ -49,5 +54,10 @@ table, th, td {
     border-collapse: collapse;
 }
 th, td {
+    padding: 15px;
+}
+
+.highlight {
+    margin-top: -1.5em;
     padding: 15px;
 }

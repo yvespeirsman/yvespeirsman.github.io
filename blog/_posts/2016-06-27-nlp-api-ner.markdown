@@ -178,7 +178,7 @@ combined to tee up Nainggolan for a 25-yard drive that Buffon pushed away
 Indian president Pranab Mukherjee arrived in Ivory Coast capital Abidjan on Tuesday for a two-day state visit, the first visit of an Indian president since the establishment of diplomatic relations between the two countries in 1960.
 </blockquote>
 <p class="noindent">Lexalytics misses both locations (<em>Ivory Coast</em> and <em>Abidjan</em>), as well as <em>Pranab Mukherjee</em> (person).
-That’s downright disappointing.</p>
+That’s pretty disappointing.</p>
 <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/16EIiMRHZHqy6mE9kbMtK4nGSMa-XbqtC7A_nRd2TOJ4/pubchart?oid=2010346884&amp;format=interactive"></iframe>
 
 </p>
