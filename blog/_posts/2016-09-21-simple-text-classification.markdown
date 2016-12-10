@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Text Classification Made Simple"
+title:  "Text Classification Made Simple&nbsp;&nbsp;"
 date:   2016-09-21 12:00:00
 tags: NLP api software text classification monkeylearn fasttext scikit-learn
 comments: true

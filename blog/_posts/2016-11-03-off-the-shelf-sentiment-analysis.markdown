@@ -7,8 +7,7 @@ comments: true
 ---
 
 <p class="first">
-Sentiment analysis is one of the most popular applications of Natural Language
-Processing. Many companies run software that automatically classifies a text as positive, negative or neutral to monitor how their products are received online. 
+Sentiment analysis is one of the most popular applications of Natural Language Processing. Many companies run software that automatically classifies a text as positive, negative or neutral to monitor how their products are received online. 
 Other people use sentiment analysis to conduct political analyses: they <a href="http://tarsier.monkeylearn.com/">track the average sentiment in tweets that mention the US presidential candidates</a>, or show that <a href="http://varianceexplained.org/r/trump-tweets/">Donald Trump’s tweets are much more negative than those posted by his staff</a>. There are even companies that <a href="http://www.stockfluence.com/">rely on sentiment analysis to try and predict the stock markets</a>. But how good is sentiment analysis exactly? And what approach should you take when you’re faced with a sentiment analysis task yourself?</p>
 
 <p>
