@@ -30,7 +30,10 @@ with local fidelity. Its explanations are interpretable because they account for
 have influenced it. They are locally faithful because they correspond well to how the model behaves in the vicinity
 of the instance under investigation. This is achieved by basing the explanation on sampled instances that are weighted by their similarity to the target example.</p>
 
-<img class="padded2" width="550" src="https://www.dropbox.com/s/x1seyfxawrta7id/Screenshot%202017-01-24%2023.27.46.png?raw=1">
+<figure class="padded2">
+<img width="550" src="https://www.dropbox.com/s/x1seyfxawrta7id/Screenshot%202017-01-24%2023.27.46.png?raw=1">
+<figcaption>Ribeiro et al. use a small set of words to explain a classifier’s decision.</figcaption>
+</figure>
 
 <p>Ribeiro and colleagues show that LIME can help expose models whose high accuracy on a test set is due 
 to peculiarities of the data rather than their ability to generalize well. This can happen, for example, when a text classifier bases
@@ -47,7 +50,10 @@ relevance values for a specific class to all cells in the intermediate
 layers. When it reaches the embedding layer, it pools the relevances over all dimensions to obtain word-level relevance scores.
 </p>
 
-<img class="padded2" width="600" src="https://www.dropbox.com/s/3kyr078p4s1j8bh/Screenshot%202017-01-22%2012.29.16.png?raw=1">
+<figure class="padded2">
+<img width="600" src="https://www.dropbox.com/s/3kyr078p4s1j8bh/Screenshot%202017-01-22%2012.29.16.png?raw=1">
+<figcaption width="500">Arras et al. show that a CNN classifier focuses on fewer, more meaningful words than an SVM.</figcaption>
+</figure>
 
 <p>
 A comparison of these word-level relevance scores between a convolutional neural 
@@ -73,7 +79,10 @@ all three models correctly recognize the negative sentiment mostly because of th
 attention to the other words than the RNN. Other examples, however, indicate that the obtained first-order derivatives are
 only a rough approximation of the individual contributions of the words, so they should be interpreted with caution.</p>
 
-<img class="padded2" width="600" src="https://www.dropbox.com/s/l0esdr7ouqdo0pz/Screenshot%202017-01-24%2022.18.01.png?raw=1">
+<figure class="padded2">
+<img width="600" src="https://www.dropbox.com/s/l0esdr7ouqdo0pz/Screenshot%202017-01-24%2022.18.01.png?raw=1">
+<figcaption>Li et al. visualize the more focused attention of LSTM networks.</figcaption>
+</figure>
 
 <p>Luckily, there are more direct ways of measuring word salience. 
 <a href="https://arxiv.org/abs/1602.08952">Kádár, Chrupała and Alishahi</a> explore an erasure technique for RNNs: they 
@@ -83,7 +92,10 @@ importance the network assigns to the word in question. For example, in the phra
 next to a bowl of salad”, an RNN typically assigns a lot of importance to the words “pizza” and “salad”, but 
 not to “a” or “of”.</p>
 
-<img class="padded2" width="550" src="https://www.dropbox.com/s/kr4y1g9euh43y58/Screenshot%202017-01-22%2011.44.41.png?raw=1">
+<figure class="padded2">
+<img width="550" src="https://www.dropbox.com/s/kr4y1g9euh43y58/Screenshot%202017-01-22%2011.44.41.png?raw=1">
+<figcaption>Kádár et al. identify important words by erasing them from the input.</figcaption>
+</figure>
 
 <p>To demonstrate the full potential of this method, Kádár et al. apply it to one specific RNN architecture: 
 the <a href="https://arxiv.org/abs/1506.03694">ImageNet</a> model they introduced in 2015. 
@@ -97,7 +109,10 @@ introduced), whereas the textual pathway is more sensitive to the end of the sen
 confirm well-known intuitions, while others are more surprising.
 </p>
 
-<img class="padded2" width="550" src="https://www.dropbox.com/s/2b79rjo9klun4vy/Screenshot%202017-01-22%2011.45.05.png?raw=1">
+<figure class="padded2">
+<img width="550" src="https://www.dropbox.com/s/2b79rjo9klun4vy/Screenshot%202017-01-22%2011.45.05.png?raw=1">
+<figcaption>Kádár et al. show how visual and textual tasks make neural networks focus on different parts of the sentence.</figcaption>
+</figure>
 
 <p><a href="https://arxiv.org/abs/1612.08220">Li, Monroe and Jurafsky</a> also
 investigate the behaviour of a neural network by feeding two inputs to the model: first the original input, and then the input without
@@ -105,7 +120,10 @@ the word or dimension of interest. Instead of looking at the full activation vec
 final (log-)likelihoods that the model assigns to the correct label for the two inputs. The larger the difference
 between the two output values, the more important the word or dimension is for that particular decision.</p>
 
-<img class="padded2" width="550" src="https://www.dropbox.com/s/ish18zzaqdhinys/Screenshot%202017-01-21%2020.43.00.png?raw=1">
+<figure class="padded2">
+<img width="550" src="https://www.dropbox.com/s/ish18zzaqdhinys/Screenshot%202017-01-21%2020.43.00.png?raw=1">
+<figcaption>Li et al. investigate the influence of individual word embedding dimensions on a variety of NLP tasks.</figcaption>
+</figure>
 
 <p>With this erasure technique, Li and colleagues discover that some dimensions in <a href="https://arxiv.org/pdf/1301.3781.pdf">word2vec</a> embeddings correlate
 with specific NLP tasks, such as part-of-speech tagging and named entity recognition. <a href="http://www-nlp.stanford.edu/pubs/glove.pdf">Glove embeddings</a>, 
@@ -115,7 +133,10 @@ across the dimensions. The higher layers of the neural model, too, are character
 information, and the final decision of the network is more robust to changes at these levels.
 </p>
 
-<img class="padded2" width="550" src="https://www.dropbox.com/s/0szthtqa87rbaj9/Screenshot%202017-01-21%2020.43.27.png?raw=1">
+<figure class="padded2">
+<img width="550" src="https://www.dropbox.com/s/0szthtqa87rbaj9/Screenshot%202017-01-21%2020.43.27.png?raw=1">
+<figcaption>Li et al. show that LSTM networks focus more on sentiment words than RNNs in sentiment analysis.</figcaption>
+</figure>
 
 <p>
 Finally, an application of Li et al.’s technique to sentiment analysis confirms some of their earlier findings.

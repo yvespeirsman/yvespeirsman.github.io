@@ -32,6 +32,15 @@ img.padded {
 img.padded2 {
     padding-top: 1em;
     padding-bottom: 1em;
+    text-align:center;
+    display:block;
+}
+
+figure.padded2 {
+    padding-bottom: 1em;
+    text-align:center;
+    font-style: italic;
+    display:block;
 }
 
 img.bio-photo {
