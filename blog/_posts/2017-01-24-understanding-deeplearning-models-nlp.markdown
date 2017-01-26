@@ -98,7 +98,7 @@ not to “a” or “of”.</p>
 </figure>
 
 <p>To demonstrate the full potential of this method, Kádár et al. apply it to one specific RNN architecture: 
-the <a href="https://arxiv.org/abs/1506.03694">ImageNet</a> model they introduced in 2015. 
+the <a href="https://arxiv.org/abs/1506.03694">Imaginet</a> model they introduced in 2015. 
 ImageNet consists of two separate Gated Recurrent Unit (GRU) pathways. 
 One of these predicts image vectors given image descriptions; the other is a straightforward language
 model. They show that the visual pathway focuses most of its attention on a small
